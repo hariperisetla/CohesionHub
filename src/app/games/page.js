@@ -73,11 +73,11 @@ const Games = () => {
 
   return (
     <div className="bg-blue-300 min-h-screen py-12">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <h2 className="text-3xl text-center font-semibold mb-6">
           Explore Our Games
         </h2>
-        <div className="grid gap-6 md:grid-cols-5">
+        <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-4">
           {gamesList.map((game, index) => (
             <div
               key={index}

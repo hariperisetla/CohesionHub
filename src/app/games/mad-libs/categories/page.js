@@ -36,12 +36,12 @@ const Games = () => {
 
   return (
     <div className="bg-green-50 min-h-screen py-12">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <h2 className="text-3xl text-center font-semibold mb-6">
           Select your Mad Lib
         </h2>
         {console.log(madlibsList)}
-        <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-5">
+        <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-4">
           {madlibsList.map((game, index) => (
             <div
               key={index}
